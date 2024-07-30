@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBO</title>
+    <style>
+        body{
+    padding: 15px;
+    background-color: #fbf8f8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color: #848484;
+}
+
+.h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.table {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #444;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+    align-items: center;
+}
+ 
+.table tr th{
+    background: #656565;
+    color: #fff;
+    font-weight: normal;
+}
+ 
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+ 
+.table tr:hover {
+    background-color: #c5c5c5;
+}
+ 
+.table tr:nth-child(even) {
+    background-color: #e1e1e1;
+}
+
+.h2 {
+    font-size: px;
+}
+    </style>
+</head>
+    <body>
+        <nav>
+        <h1 style="text-align: center;">Pemrograman Berorietasi Objek (PBO)</h1>
+        </nav><br>
+        <h2>sejarah perkembangan Pemrograman Berorientasi Objek</h2>
+        <p>Pemrograman Berorientasi Objek (PBO) merupakan paradigma pemrograman yang menggunakan konsep "objek" dan "kelas" untuk merancang perangkat lunak. Konsep ini dimulai pada awal 1960-an dan 1970-an ketika para peneliti mencari cara untuk menangani kompleksitas dalam pengembangan perangkat lunak.</p>
+        <h2>• Perkembangan Awal Konsep Objek dan Kelas</h2>
+        <p>Konsep dasar dari PBO berakar pada penelitian dalam simulasi dan kecerdasan buatan. Pada tahun 1960-an, peneliti seperti Ole-Johan Dahl dan Kristen Nygaard di Norwegia mengembangkan bahasa pemrograman Simula. Simula 67, yang diluncurkan pada tahun 1967, dianggap sebagai bahasa pemrograman pertama yang mendukung PBO. Simula memperkenalkan konsep kelas dan objek sebagai cara untuk mensimulasikan sistem dunia nyata.</p>
+        <h2>• Bahasa Pemrograman Pertama yang Mendukung PBO</h2>
+        <p>Simula 67 adalah bahasa pertama yang memperkenalkan konsep-konsep kunci PBO seperti kelas, objek, pewarisan, dan polimorfisme. Meskipun Simula 67 tidak sepopuler bahasa pemrograman modern, ia memiliki pengaruh yang signifikan dalam pengembangan bahasa PBO yang lebih lanjut.</p>
+        <h2>• Peran Smalltalk, C++, dan Java dalam Memopulerkan PBO</h2>
+        <p>Smalltalk, yang dikembangkan pada tahun 1970-an oleh Alan Kay dan timnya di Xerox PARC, adalah bahasa pemrograman yang sangat berorientasi objek. Smalltalk memperkenalkan lingkungan pengembangan terintegrasi dan pendekatan yang sepenuhnya berorientasi objek, yang memberikan pengaruh besar pada PBO modern.
+        C++, yang dikembangkan oleh Bjarne Stroustrup pada awal 1980-an, membawa konsep PBO ke dunia pemrograman yang lebih luas. Dengan menggabungkan kekuatan C dan menambahkan fitur PBO, C++ menjadi sangat populer dalam pengembangan perangkat lunak skala besar.
+        Java, yang diperkenalkan oleh Sun Microsystems pada tahun 1995, lebih mempopulerkan PBO dengan pendekatan "tulis sekali, jalankan di mana saja". Java memanfaatkan prinsip-prinsip PBO untuk membangun aplikasi yang dapat berjalan di berbagai platform, yang menjadikannya pilihan populer untuk pengembangan aplikasi web dan perusahaan.</p>
+        <h2>• Dampak PBO terhadap Pengembangan dan Pemeliharaan Perangkat Lunak</h2>
+        <p>PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara dengan menyediakan cara yang lebih alami untuk memodelkan dunia nyata. Dengan menggunakan objek dan kelas, pengembang dapat membuat kode yang lebih modular, dapat digunakan kembali, dan mudah untuk dipelihara. PBO memungkinkan enkapsulasi, yang menyembunyikan detail implementasi dan mengungkapkan antarmuka yang bersih. Ini mengurangi kompleksitas dan memungkinkan pengembang untuk fokus pada logika bisnis utama.</p>
+        <center>
+        <h1 style="text-align: center;">Perbedaan Pemrograman Prosedural dan PBO</h1>
+        <table class="table">
+            <tr>
+                <th>Aspek</th>
+                <th>Pemrograman Prosedural</th>
+                <th>Pemrograman Berorientasi Objek</th>
+            </tr>
+            <tr>
+                <td>Struktur Program</td>
+                <td>Berdasarkan fungsi dan prosedur</td>
+                <td>Berdasarkan objek dan kelas</td>
+            </tr>
+            <tr>
+                <td>Pendekatan</td>
+                <td>Berfokus pada urutan langkah</td>
+                <td>Berfokus pada data dan interaksi objek</td>
+            </tr>
+            <tr>
+                <td>Kelebihan</td>
+                <td>Sederhana untuk masalah kecil, cepat</td>
+                <td>Mudah untuk pemeliharaan, modular</td>
+            </tr>
+            <tr>
+                <td>Contoh Bahasa</td>
+                <td>C, Pascal</td>
+                <td>C++, Java, Python</td>
+            </tr>
+        </table>
+        </center>
+    </body>
+</html>
