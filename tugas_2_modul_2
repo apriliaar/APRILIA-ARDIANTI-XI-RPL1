@@ -1,0 +1,49 @@
+# Definisi kelas Kalkulator yang digunakan untuk melakukan operasi matematika dasar
+class Kalkulator:
+    # Konstruktor untuk menginisialisasi objek dengan dua angka (angka1 dan angka2)
+    def __init__(self, angka1, angka2):
+        # Atribut angka1 menyimpan nilai pertama
+        self.angka1 = angka1
+        # Atribut angka2 menyimpan nilai kedua
+        self.angka2 = angka2
+
+    # Metode untuk melakukan penjumlahan angka1 dan angka2
+    def tambah(self):
+        return self.angka1 + self.angka2
+
+    # Metode untuk melakukan pengurangan angka1 dan angka2
+    def kurang(self):
+        return self.angka1 - self.angka2
+
+    # Metode untuk melakukan perkalian angka1 dan angka2
+    def kali(self):
+        return self.angka1 * self.angka2
+
+    # Metode untuk melakukan pembagian angka1 dengan angka2
+    # Termasuk penanganan kesalahan jika angka2 bernilai nol
+    def bagi(self):
+        if self.angka2 == 0:
+    # Memeriksa apakah angka2 nol untuk mencegah pembagian dengan nol
+            return "Error: Pembagian dengan nol tidak diperbolehkan."
+        return self.angka1 / self.angka2
+
+# Membuat objek kalkulator dengan angka1 = 25 dan angka2 = 5
+kalkulator = Kalkulator(25, 5)
+
+# Menampilkan hasil penjumlahan angka1 dan angka2 menggunakan metode tambah()
+print(f"Hasil Penjumlahan: {kalkulator.tambah()}")
+
+# Menampilkan hasil pengurangan angka1 dan angka2 menggunakan metode kurang()
+print(f"Hasil Pengurangan: {kalkulator.kurang()}")
+
+# Menampilkan hasil perkalian angka1 dan angka2 menggunakan metode kali()
+print(f"Hasil Perkalian: {kalkulator.kali()}")
+
+# Menampilkan hasil pembagian angka1 dengan angka2 menggunakan metode bagi()
+print(f"Hasil Pembagian: {kalkulator.bagi()}")
+
+# Contoh penanganan pembagian dengan nol
+# Membuat objek kalkulator_nol dengan angka1 = 15 dan angka2 = 0
+kalkulator_nol = Kalkulator(15, 0)
+# Mencoba melakukan pembagian dengan nol dan menampilkan hasilnya
+print(f"Hasil Pembagian dengan Nol: {kalkulator_nol.bagi()}")
